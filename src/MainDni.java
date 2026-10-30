@@ -11,7 +11,7 @@ public class MainDni {
 
         System.out.println();
 
-        DNI dni2 = new DNI("18554477Z");
+        DNI dni2 = new DNI("18957690D");
         System.out.println(dni2);
         System.out.println(dni2.getNumber());
         System.out.println(dni2.getLetter());

@@ -44,11 +44,7 @@ public class DNI {
     }
 
     public boolean correctDni() {
-        if (number<0) {
-            return false;
-        } else {
-            return true;
-        }
+       return number >= 0;
     }
 
     @Override

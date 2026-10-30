@@ -33,6 +33,10 @@ public class DNI {
 
     public void setNumber(int number) {
         this.number = number;
+        char realLetter = LETRAS[number % 23];
+        if (realLetter != letter) {
+            this.number = -this.number;
+        }
     }
 
     public static char letterForDni(int number) {

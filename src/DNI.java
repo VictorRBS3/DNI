@@ -32,7 +32,7 @@ public class DNI {
     }
 
     public void setNumber(int number) {
-        number = number;
+        this.number = number;
     }
 
     public static char letterForDni(int number) {

@@ -8,12 +8,12 @@ public class DNI {
     }
 
     public DNI(int number, char letter) {
-        number = number;
-        letter = letter;
+        this.number = number;
+        this.letter = letter;
     }
 
     public DNI(int number) {
-        number = number;
+        this.number = number;
         this.letter = letterForDni(number);
     }
 

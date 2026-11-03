@@ -21,6 +21,11 @@ public class DNI {
         String numStr = s.substring(0, s.length() - 1);
         this.number = Integer.parseInt(numStr);
         this.letter = s.charAt(s.length() - 1);
+
+        char realLetter = letterForDni(number);
+        if (realLetter != letter) {
+            this.number = -number;
+        }
     }
 
     public int getNumber() {
